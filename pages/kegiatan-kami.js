@@ -94,7 +94,7 @@ export default function Profile() {
                         garunggang dan desa telagah
                       </p>
                       <div className="flex flex-wrap items-center w-full">
-                        <div className="w-4/12  relative p-3">
+                        <div className="w-full lg:w-4/12  relative p-3">
                           <div className="bg-white p-5 relative h-350-px">
                             <Image
                               className="p-1"
@@ -106,7 +106,7 @@ export default function Profile() {
                             />
                           </div>
                         </div>
-                        <div className="w-4/12  relative p-3">
+                        <div className="w-full lg:w-4/12  relative p-3">
                           <div className="bg-white p-5 relative h-350-px">
                             <Image
                               src="https://erynimage.s3.ap-southeast-1.amazonaws.com/KAKHI/WhatsApp+Image+2022-11-11+at+10.52.30+AM.jpeg"
@@ -117,7 +117,7 @@ export default function Profile() {
                             />
                           </div>
                         </div>
-                        <div className="w-4/12  relative p-3">
+                        <div className="w-full lg:w-4/12  relative p-3">
                           <div className="bg-white p-5 relative h-350-px">
                             <Image
                               src="https://erynimage.s3.ap-southeast-1.amazonaws.com/KAKHI/WhatsApp Image 2022-11-11 at 10.52.31 AM (1).jpeg"
@@ -140,7 +140,7 @@ export default function Profile() {
                        Kegiatan Lainnya Terkait aktivitas Konservasi
                       </h3>
                        <div className="flex flex-wrap items-center w-full">
-                        <div className="w-4/12  relative p-3">
+                        <div className="w-full lg:w-4/12  relative p-3">
                           <div className="bg-white p-5 relative h-350-px">
                             <Image
                               className="p-1"
@@ -152,7 +152,7 @@ export default function Profile() {
                             />
                           </div>
                         </div>
-                        <div className="w-4/12  relative p-3">
+                        <div className="w-full lg:w-4/12  relative p-3">
                           <div className="bg-white p-5 relative h-350-px">
                             <Image
                               src="https://erynimage.s3.ap-southeast-1.amazonaws.com/KAKHI/image003.jpg"
@@ -163,7 +163,7 @@ export default function Profile() {
                             />
                           </div>
                         </div>
-                        <div className="w-4/12  relative p-3">
+                        <div className="w-full lg:w-4/12  relative p-3">
                           <div className="bg-white p-5 relative h-350-px">
                             <Image
                               src="https://erynimage.s3.ap-southeast-1.amazonaws.com/KAKHI/image004.jpg"

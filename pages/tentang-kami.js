@@ -469,7 +469,7 @@ export default function Profile() {
                         Kegiatan Yang Sudah Dilakukan
                       </h3>
                       <div>
-                        <table className="items-center w-full bg-transparent border-collapse overflow-x-auto">
+                        <table className="items-center w-full bg-transparent border-collapse overflow-x-auto block ">
                           <thead>
                             <tr>
                             <th

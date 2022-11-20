@@ -27,7 +27,7 @@ export default function Landing() {
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                <div className="pr-12">
+                <div className="">
                   <h1 className="text-white font-semibold text-5xl">KAKHI</h1>
                   <p className="mt-4 text-lg text-blueGray-200">
                     KONSERVASI ALAM KEANEKARAGAMAN HAYATI INDONESIA
@@ -373,7 +373,7 @@ export default function Landing() {
             </svg>
           </div>
 
-          <div className="container mx-auto px-4 lg:pt-24 lg:pb-36">
+          <div className="container mx-auto px-4 lg:pt-24 lg:pb-36 pt-12">
             <div className="flex flex-wrap text-center justify-center">
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold text-white">
@@ -439,7 +439,7 @@ export default function Landing() {
                 </p>
               </div>
             </div>
-            <div className="flex flex-wrap px-12">
+            <div className="flex flex-wrap lg:px-12">
               <Link href="/kegiatan-kami">
                 <div className="relative w-full md:w-4/12  text-center px-2 py-2">
                   <div className="relative w-full align-middle rounded-t-lg text-white h-350-px">
