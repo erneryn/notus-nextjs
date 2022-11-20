@@ -440,107 +440,111 @@ export default function Landing() {
               </div>
             </div>
             <div className="flex flex-wrap px-12">
-              <div className="relative w-full md:w-4/12  text-center px-2">
-                <div className="relative w-full align-middle rounded-t-lg text-white h-350-px">
-                  <Image
-                    className="rounded-t-lg"
-                    layout="fill"
-                    objectPosition="top center"
-                    objectFit="cover"
-                    alt="..."
-                    src="https://erynimage.s3.ap-southeast-1.amazonaws.com/KAKHI/WhatsApp+Image+2022-11-11+at+10.52.31+AM.jpeg"
-                  />
+              <Link href="/kegiatan-kami">
+                <div className="relative w-full md:w-4/12  text-center px-2 py-2">
+                  <div className="relative w-full align-middle rounded-t-lg text-white h-350-px">
+                    <Image
+                      className="rounded-t-lg"
+                      layout="fill"
+                      objectPosition="top center"
+                      objectFit="cover"
+                      alt="..."
+                      src="https://erynimage.s3.ap-southeast-1.amazonaws.com/KAKHI/WhatsApp+Image+2022-11-11+at+10.52.31+AM.jpeg"
+                    />
+                  </div>
+                  <blockquote className="relative p-4 pb-6 rounded-b-lg bg-blueGray-700 shadow-lg">
+                    <svg
+                      preserveAspectRatio="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 583 95"
+                      className="absolute left-0 w-full block h-95-px -top-94-px"
+                    >
+                      <polygon
+                        points="-30,95 583,95 583,65"
+                        className="text-blueGray-700 fill-current"
+                      ></polygon>
+                    </svg>
+                    <h4 className="text-xl font-bold text-white">
+                      Orang Utan Desa Garunggang
+                    </h4>
+                    <p className="text-md font-light mt-2 text-white line-clamp-5">
+                      Pada tahun 2005 ada kami temukan 5 individu orang utan di
+                      bantaran sungai kulap Desa Telagah dan Desa Garunggang dan
+                      masuk dalam kawasan Hutan Produksi Terbatas
+                    </p>
+                  </blockquote>
                 </div>
-                <blockquote className="relative p-4 pb-6 rounded-b-lg bg-blueGray-700 shadow-lg">
-                  <svg
-                    preserveAspectRatio="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 583 95"
-                    className="absolute left-0 w-full block h-95-px -top-94-px"
-                  >
-                    <polygon
-                      points="-30,95 583,95 583,65"
-                      className="text-blueGray-700 fill-current"
-                    ></polygon>
-                  </svg>
-                  <h4 className="text-xl font-bold text-white">
-                    Orang Utan Desa Garunggang
-                  </h4>
-                  <p className="text-md font-light mt-2 text-white line-clamp-5">
-                    Pada tahun 2005 ada kami temukan 5 individu orang utan di
-                    bantaran sungai kulap Desa Telagah dan Desa Garunggang dan
-                    masuk dalam kawasan Hutan Produksi Terbatas
-                  </p>
-                </blockquote>
-              </div>
-
-              <div className="relative w-full md:w-4/12  text-center px-2">
-                <div className="relative w-full align-middle rounded-t-lg text-white h-350-px">
-                  <Image
-                    className="rounded-t-lg"
-                    layout="fill"
-                    objectPosition="left center"
-                    objectFit="cover"
-                    alt="..."
-                    src="https://erynimage.s3.ap-southeast-1.amazonaws.com/KAKHI/image005.jpg"
-                  />
+              </Link>
+              <Link href="/kegiatan-kami">
+                <div className="relative w-full md:w-4/12  text-center px-2 py-2">
+                  <div className="relative w-full align-middle rounded-t-lg text-white h-350-px">
+                    <Image
+                      className="rounded-t-lg"
+                      layout="fill"
+                      objectPosition="left center"
+                      objectFit="cover"
+                      alt="..."
+                      src="https://erynimage.s3.ap-southeast-1.amazonaws.com/KAKHI/image005.jpg"
+                    />
+                  </div>
+                  <blockquote className="relative p-4 pb-6 rounded-b-lg bg-blueGray-700 shadow-lg">
+                    <svg
+                      preserveAspectRatio="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 583 95"
+                      className="absolute left-0 w-full block h-95-px -top-94-px"
+                    >
+                      <polygon
+                        points="-30,95 583,95 583,65"
+                        className="text-blueGray-700 fill-current"
+                      ></polygon>
+                    </svg>
+                    <h4 className="text-xl font-bold text-white">
+                      Conservation and Environment Awareness
+                    </h4>
+                    <p className="text-md font-light mt-2 text-white line-clamp-5">
+                      Kegiatan Pelatihan tentang konservasi. melibatkan
+                      masyarakat,komunitas, atau karyawan agar nantinya menjadi
+                      pelaku konservasi
+                    </p>
+                  </blockquote>
                 </div>
-                <blockquote className="relative p-4 pb-6 rounded-b-lg bg-blueGray-700 shadow-lg">
-                  <svg
-                    preserveAspectRatio="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 583 95"
-                    className="absolute left-0 w-full block h-95-px -top-94-px"
-                  >
-                    <polygon
-                      points="-30,95 583,95 583,65"
-                      className="text-blueGray-700 fill-current"
-                    ></polygon>
-                  </svg>
-                  <h4 className="text-xl font-bold text-white">
-                    Conservation and Environment Awareness
-                  </h4>
-                  <p className="text-md font-light mt-2 text-white line-clamp-5">
-                    Kegiatan Pelatihan tentang konservasi. melibatkan
-                    masyarakat,komunitas, atau karyawan agar nantinya menjadi
-                    pelaku konservasi
-                  </p>
-                </blockquote>
-              </div>
-
-              <div className="relative w-full md:w-4/12  text-center px-2">
-                <div className="relative w-full align-middle rounded-t-lg text-white h-350-px">
-                  <Image
-                    className="rounded-t-lg"
-                    layout="fill"
-                    objectPosition="top center"
-                    objectFit="cover"
-                    alt="..."
-                    src="https://erynimage.s3.ap-southeast-1.amazonaws.com/KAKHI/image002.jpg"
-                  />
+              </Link>
+              <Link href="/kegiatan-kami">
+                <div className="relative w-full md:w-4/12  text-center px-2 py-2">
+                  <div className="relative w-full align-middle rounded-t-lg text-white h-350-px">
+                    <Image
+                      className="rounded-t-lg"
+                      layout="fill"
+                      objectPosition="top center"
+                      objectFit="cover"
+                      alt="..."
+                      src="https://erynimage.s3.ap-southeast-1.amazonaws.com/KAKHI/image002.jpg"
+                    />
+                  </div>
+                  <blockquote className="relative p-4 pb-6 rounded-b-lg bg-blueGray-700 shadow-lg">
+                    <svg
+                      preserveAspectRatio="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 583 95"
+                      className="absolute left-0 w-full block h-95-px -top-94-px"
+                    >
+                      <polygon
+                        points="-30,95 583,95 583,65"
+                        className="text-blueGray-700 fill-current"
+                      ></polygon>
+                    </svg>
+                    <h4 className="text-xl font-bold text-white">
+                      Pendampingan Penggalian Potensi Manggrove{" "}
+                    </h4>
+                    <p className="text-md font-light mt-2 text-white">
+                      Kami melakukan Pendampingan dan Pelatihan bagaimana hutan
+                      mangrove seharusnya di rehabilitasi, dan menggali potensi
+                      yang ada.
+                    </p>
+                  </blockquote>
                 </div>
-                <blockquote className="relative p-4 pb-6 rounded-b-lg bg-blueGray-700 shadow-lg">
-                  <svg
-                    preserveAspectRatio="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 583 95"
-                    className="absolute left-0 w-full block h-95-px -top-94-px"
-                  >
-                    <polygon
-                      points="-30,95 583,95 583,65"
-                      className="text-blueGray-700 fill-current"
-                    ></polygon>
-                  </svg>
-                  <h4 className="text-xl font-bold text-white">
-                    Pendampingan Penggalian Potensi Manggrove{" "}
-                  </h4>
-                  <p className="text-md font-light mt-2 text-white">
-                    Kami melakukan Pendampingan dan Pelatihan bagaimana hutan
-                    mangrove seharusnya di rehabilitasi, dan menggali potensi
-                    yang ada.
-                  </p>
-                </blockquote>
-              </div>
+              </Link>
             </div>
           </div>
         </section>
@@ -552,17 +556,33 @@ export default function Landing() {
                 <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-blueGray-200">
                   <i className="fas fa-coins text-xl"></i>
                 </div>
-                <h2 className="text-4xl font-semibold">Strategi Penggalangan Dana</h2>
+                <h2 className="text-4xl font-semibold">
+                  Strategi Penggalangan Dana
+                </h2>
                 <p className="text-lg leading-relaxed m-4 text-blueGray-500">
-                Kami menyadari bahwa penggalangan dana butuh kerja keras dan sumber pendanaan seringkali sangat kompetitif. Penting untuk menemukan peluang pendanaan baru setiap saat, terus berkomunikasi dengan orang-orang yang tepat tentang apa yang kami coba lakukan dalam konservasi di Indonesia, menunjukkan bagaimana kami dapat mencapai target. Prinsip penggalangan dana kami adalah bahwa hubungan Kakhi Indonesia dan donor merupakan kemitraan. Seperti semua kemitraan yang baik, itu perlu didasarkan pada rasa saling menghormati, saling percaya, dan saling menguntungkan.
-Strategi penggalangan dana Kakhi Indonesia adalah mengumpulkan dana dari individu dan lembaga pendanaan untuk mendukung proyek tertentu. Untuk memilih pendukung dana, penting untuk menjual ide proyek yang disesuaikan dengan berbagai alasan dan motivasi di balik sumber pendanaan selain itu penting juga untuk menciptakan kesan yang baik bahwa Kakhi Indonesia kompeten, memiliki kemampuan dan dedikasi untuk melaksanakan program secara tepat dan efisien.
-
+                  Kami menyadari bahwa penggalangan dana butuh kerja keras dan
+                  sumber pendanaan seringkali sangat kompetitif. Penting untuk
+                  menemukan peluang pendanaan baru setiap saat, terus
+                  berkomunikasi dengan orang-orang yang tepat tentang apa yang
+                  kami coba lakukan dalam konservasi di Indonesia, menunjukkan
+                  bagaimana kami dapat mencapai target. Prinsip penggalangan
+                  dana kami adalah bahwa hubungan Kakhi Indonesia dan donor
+                  merupakan kemitraan. Seperti semua kemitraan yang baik, itu
+                  perlu didasarkan pada rasa saling menghormati, saling percaya,
+                  dan saling menguntungkan. Strategi penggalangan dana Kakhi
+                  Indonesia adalah mengumpulkan dana dari individu dan lembaga
+                  pendanaan untuk mendukung proyek tertentu. Untuk memilih
+                  pendukung dana, penting untuk menjual ide proyek yang
+                  disesuaikan dengan berbagai alasan dan motivasi di balik
+                  sumber pendanaan selain itu penting juga untuk menciptakan
+                  kesan yang baik bahwa Kakhi Indonesia kompeten, memiliki
+                  kemampuan dan dedikasi untuk melaksanakan program secara tepat
+                  dan efisien.
                 </p>
               </div>
             </div>
           </div>
         </section>
-
       </main>
       <Footer />
     </>

@@ -103,7 +103,7 @@ export const ActivityTable = () => {
     {
       dataTable.map((el) => 
       <tr className="border"> 
-      <td className="border-t-0 px-6 align-middle border-l-0 text-xs whitespace-nowrap p-4">
+      <td className="border-t-0 px-4 align-middle border-l-0 text-xs p-4">
         <span>{el.Periode}</span>
       </td>
       <td className="border-t-0 px-6 align-middle border-l-0 text-xs  p-4">

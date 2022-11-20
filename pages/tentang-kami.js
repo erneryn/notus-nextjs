@@ -469,12 +469,12 @@ export default function Profile() {
                         Kegiatan Yang Sudah Dilakukan
                       </h3>
                       <div>
-                        <table className="items-center w-full bg-transparent border-collapse">
+                        <table className="items-center w-full bg-transparent border-collapse overflow-x-auto">
                           <thead>
                             <tr>
                             <th
                                 className={
-                                  "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
+                                  "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0  font-semibold text-left " +
                                   "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
 
                                 }
@@ -483,7 +483,7 @@ export default function Profile() {
                               </th>
                               <th
                                 className={
-                                  "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
+                                  "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0  font-semibold text-left " +
                                   "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
 
                                 }
@@ -492,7 +492,7 @@ export default function Profile() {
                               </th>
                               <th
                                 className={
-                                  "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
+                                  "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0  font-semibold text-left " +
                                   "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
 
                                 }
@@ -501,7 +501,7 @@ export default function Profile() {
                               </th>
                               <th
                                 className={
-                                  "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
+                                  "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 font-semibold text-left " +
                                   "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
 
                                 }
