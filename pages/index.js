@@ -688,6 +688,15 @@ export default function Landing() {
             </div>
             </div>
 
+            <div className="w-full flex items-center justify-center">
+            <div className="w-6/12 p-4 mt-12 border-t border-blueGray-200 text-blueGray-400">
+              Contact Person :
+              <p className="mt-2 mb-4  text-white">
+                  IDA GINTING:  081361156210
+                  </p>
+            </div>
+            </div>
+
           </div>
         </section>
       </main>
