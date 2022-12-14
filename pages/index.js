@@ -683,7 +683,7 @@ export default function Landing() {
             <div className="w-6/12 p-4 mt-12 border-t border-blueGray-200 text-blueGray-400">
               Badan Pengawas :
               <p className="mt-2 mb-4 text-blueGray-400">
-                    Linggom Sari Hutabarat
+                    Ratna Hendratmoko
                   </p>
             </div>
             </div>
