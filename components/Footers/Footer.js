@@ -34,12 +34,24 @@ export default function Footer() {
                 Jalan Plamboyan IV no 2 Lingkungan VIII Kelurahan Tanjung
                 Selamat Kecamatan Medan Tuntungan, Kota Medan, Sumatera Utara{" "}
               </h5>
+              <div className="flex justify-items-center items-center">
+
+                <button
+                  className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                  type="button"
+                  >
+                  <i className="fas fa-phone"></i>
+                </button>
+                <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
+                    0813 6115 6210
+                  </span>
+              </div>
               <div className="mt-6 lg:mb-0 mb-6">
                 <button
                   className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                   type="button"
                 >
-                  <a href="https://wa.me/6281397072504" target="_blank">
+                  <a href="https://wa.me/6281361156210" target="_blank">
                     <i className="fab fa-whatsapp"></i>
                   </a>
                 </button>

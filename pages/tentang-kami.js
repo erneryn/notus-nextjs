@@ -124,6 +124,54 @@ export default function Profile() {
                 <div className="mt-10 py-10 border-t border-blueGray-200 text-justify">
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
+                      <h3 className="text-2xl font-semibold leading-normal text-blueGray-700">
+                        Susunan Pengurus
+                      </h3>
+                      <p className=" font-bold text-lg leading-relaxed text-blueGray-700">
+                      A. Badan Pembina
+                      </p>
+                      <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
+                      Ketua: 
+                      </p>
+                      <span className="ml-3 font-bold">DR. Ir Wiratno. MSc</span>
+                      <p className="mb-4 mt-2 text-lg leading-relaxed text-blueGray-700">
+                      Anggota: 
+                      </p>
+                      <div className="flex flex-col">
+
+                      <span className="ml-3 font-bold">Chandra Sembiring</span>
+                      <span className="ml-3 font-bold">Antonius P.Y Djogo</span>
+                      <span className="ml-3 font-bold">Oding Affandi, S.Hut</span>
+
+                      </div>
+                      <p className=" mt-10 font-bold text-lg leading-relaxed text-blueGray-700">
+                      B. Badan Pengurus
+                      </p>
+                      <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
+                      Ketua: 
+                      </p>
+                      <span className="ml-3 font-bold">Ida Marni</span>
+                      <p className="mb-4 mt-2 text-lg leading-relaxed text-blueGray-700">
+                      Sekretaris: 
+                      </p>
+                      <span className="ml-3 font-bold">Irian Nijar</span>
+                      <p className="mb-4 mt-2 text-lg leading-relaxed text-blueGray-700">
+                      Bendahara: 
+                      </p>
+                      <span className="ml-3 font-bold">Linggom Sari Hutabarat</span>
+                      
+                      <p className=" mt-10 font-bold text-lg leading-relaxed text-blueGray-700">
+                      B. Badan Pengawas
+                      </p>
+                      <span className="ml-3 font-bold">                    Ratna Hendratmoko</span>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mt-10 py-10 border-t border-blueGray-200 text-justify">
+                  <div className="flex flex-wrap justify-center">
+                    <div className="w-full lg:w-9/12 px-4">
                       <h3 className="text-2xl font-semibold leading-normal mb-2 text-blueGray-700 mb-2">
                         Fokus Kegiatan
                       </h3>
@@ -529,6 +577,18 @@ export default function Profile() {
                       Kami menyadari bahwa penggalangan dana butuh kerja keras dan sumber pendanaan seringkali sangat kompetitif. Penting untuk menemukan peluang pendanaan baru setiap saat, terus berkomunikasi dengan orang-orang yang tepat tentang apa yang kami coba lakukan dalam konservasi di Indonesia, menunjukkan bagaimana kami dapat mencapai target. Prinsip penggalangan dana kami adalah bahwa hubungan Kakhi Indonesia dan donor merupakan kemitraan. Seperti semua kemitraan yang baik, itu perlu didasarkan pada rasa saling menghormati, saling percaya, dan saling menguntungkan.
 Strategi penggalangan dana Kakhi Indonesia adalah mengumpulkan dana dari individu dan lembaga pendanaan untuk mendukung proyek tertentu. Untuk memilih pendukung dana, penting untuk menjual ide proyek yang disesuaikan dengan berbagai alasan dan motivasi di balik sumber pendanaan selain itu penting juga untuk menciptakan kesan yang baik bahwa Kakhi Indonesia kompeten, memiliki kemampuan dan dedikasi untuk melaksanakan program secara tepat dan efisien.
 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-10 py-10 border-t border-blueGray-200 text-justify">
+                  <div className="flex flex-wrap justify-center">
+                    <div className="w-full lg:w-9/12 px-4">
+                      <h3 className="text-2xl font-semibold leading-normal mb-2 text-blueGray-700 mb-2">
+                        Susunan Pengurus
+                      </h3>
+                      <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
+                     
                       </p>
                     </div>
                   </div>

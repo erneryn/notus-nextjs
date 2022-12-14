@@ -583,8 +583,116 @@ export default function Landing() {
             </div>
           </div>
         </section>
+
+        <section className="pb-20 relative block bg-blueGray-800">
+          <div
+            className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
+            style={{ transform: "translateZ(0)" }}
+          >
+            <svg
+              className="absolute bottom-0 overflow-hidden"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="none"
+              version="1.1"
+              viewBox="0 0 2560 100"
+              x="0"
+              y="0"
+            >
+              <polygon
+                className="text-blueGray-800 fill-current"
+                points="2560 0 2560 100 0 100"
+              ></polygon>
+            </svg>
+          </div>
+
+          <div className="container mx-auto px-4 lg:pt-24 lg:pb-36 pt-12">
+            <div className="flex flex-wrap text-center justify-center">
+              <div className="w-full lg:w-6/12 px-4">
+                <h2 className="text-4xl font-semibold text-white">
+                  Susunan Pengurus
+                </h2>
+              </div>
+            </div>
+            <div className="w-full flex items-center justify-center">
+            <div className="w-6/12 p-4 mt-12 border-t border-blueGray-200 text-blueGray-400">
+              Badan Pembina :
+            </div>
+            </div>
+            <div className="flex flex-wrap justify-center ">
+              <div className="w-full lg:w-3/12 px-4 text-center ">
+                <h5 className="text-xl mt-2 font-semibold text-white">
+                  Ketua
+                </h5>
+                <p className="mt-2 mb-4 text-blueGray-400">
+                  DR. Ir Wiratno, MSc
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-wrap mt-1 justify-center ">
+              <div className="w-full lg:w-6/12 px-4 text-center">
+                <h5 className="text-xl mt-1 font-semibold text-white">
+                  Anggota
+                </h5>
+                <div className="flex items-center justify-between">
+                <p className="mt-1 mb-4 text-blueGray-400">
+                  Chandra Sembiring
+                </p>
+                <p className="mt-1 mb-4 text-blueGray-400">
+                  Antonius P.Y Djogo
+                </p>
+                <p className="mt-1 mb-4 text-blueGray-400">
+                  Oding Affandi, S.Hut
+                </p>
+                </div>
+              </div>
+            </div>
+            <div className="w-full flex items-center justify-center">
+            <div className="w-6/12 p-4 mt-12 border-t border-blueGray-200 text-blueGray-400">
+              Badan Pengurus :
+            </div>
+            </div>
+            <div className="flex flex-wrap justify-center ">
+              <div className="w-full lg:w-3/12 px-4 text-center ">
+                <h5 className="text-xl mt-2 font-semibold text-white">
+                  Ketua
+                </h5>
+                <p className="mt-2 mb-4 text-blueGray-400">
+                  Ida Marni
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-wrap justify-center ">
+                <div className="w-full lg:w-3/12 px-4 text-center ">
+                  <h5 className="text-xl mt-2 font-semibold text-white">
+                    Sekretaris
+                  </h5>
+                  <p className="mt-2 mb-4 text-blueGray-400">
+                    Irian Nijar
+                  </p>
+                </div>
+                <div className="w-full lg:w-3/12 px-4 text-center ">
+                  <h5 className="text-xl mt-2 font-semibold text-white">
+                    Bendahara
+                  </h5>
+                  <p className="mt-2 mb-4 text-blueGray-400">
+                    Linggom Sari Hutabarat
+                  </p>
+                </div>
+            </div>
+            <div className="w-full flex items-center justify-center">
+            <div className="w-6/12 p-4 mt-12 border-t border-blueGray-200 text-blueGray-400">
+              Badan Pengawas :
+              <p className="mt-2 mb-4 text-blueGray-400">
+                    Linggom Sari Hutabarat
+                  </p>
+            </div>
+            </div>
+
+          </div>
+        </section>
       </main>
       <Footer />
     </>
   );
 }
+
