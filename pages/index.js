@@ -675,7 +675,7 @@ export default function Landing() {
                     Bendahara
                   </h5>
                   <p className="mt-2 mb-4 text-blueGray-400">
-                    Linggom Sari Hutabarat
+                    Sofia Winata
                   </p>
                 </div>
             </div>
